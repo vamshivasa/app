@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.findroommate.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_addPost"
+        android:label="@string/text_add_post"
+        android:name="com.example.findroommate.ui.AddPost.AddPostFragment"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_MyPosts"
+        android:label="My Posts"
+        android:name="com.example.findroommate.ui.slideshow.SlideshowFragment"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_myMessages"
+        android:label="My Messages"
+        android:name="com.example.findroommate.ui.tools.ToolsFragment"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:label="Edit Profile"
+        android:name="com.example.findroommate.ui.share.ShareFragment"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_Settings"
+        android:label="Settings"
+        android:name="com.example.findroommate.ui.send.SendFragment"
+        tools:layout="@layout/fragment_send" />
+</navigation>

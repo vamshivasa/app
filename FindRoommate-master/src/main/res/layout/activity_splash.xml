@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".SplashActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/sign_in_text"
+        android:textColor="@color/text_color_main"
+        android:textSize="18sp"
+        android:onClick="SignIn"
+        android:typeface="serif"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:paddingLeft="@dimen/padding_button_main"
+        android:paddingStart="@dimen/padding_button_main"
+        android:paddingEnd="@dimen/padding_button_main"
+        android:paddingRight="@dimen/padding_button_main"
+        tools:ignore="ButtonStyle,ObsoleteLayoutParam,RtlSymmetry" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:text="@string/sign_up_text"
+        android:textColor="@color/text_color_main"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:typeface="serif"
+        android:onClick="SignUp"
+        tools:ignore="ButtonStyle,ObsoleteLayoutParam,RelativeOverlap"
+        android:paddingLeft="@dimen/padding_button_main"
+        android:paddingStart="@dimen/padding_button_main"
+        android:paddingEnd="@dimen/padding_button_main"
+        android:paddingRight="@dimen/padding_button_main"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576603131971",
+    "firebase_url": "https://findroommate-21a6f.firebaseio.com",
+    "project_id": "findroommate-21a6f",
+    "storage_bucket": "findroommate-21a6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576603131971:android:4c89001a5a48b1aee544f6",
+        "android_client_info": {
+          "package_name": "com.example.findroommate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576603131971-lfd7hvvhtnn8al48od44qnhq2jsrskv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findroommate",
+            "certificate_hash": "d421f026e80baba3de2c92d544c3d7efdd8cc9a9"
+          }
+        },
+        {
+          "client_id": "576603131971-45sb32blnb47c50s6e98afijlt3hi47i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeDO1JUO8uKnCsZO0i07_DwTZzlKtfLlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576603131971-45sb32blnb47c50s6e98afijlt3hi47i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

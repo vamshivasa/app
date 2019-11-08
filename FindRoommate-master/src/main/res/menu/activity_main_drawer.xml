@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/text_home" />
+        <item
+            android:id="@+id/nav_addPost"
+            android:title="@string/text_add_post" />
+        <item
+            android:id="@+id/nav_MyPosts"
+            android:title="@string/text_my_post" />
+        <item
+            android:id="@+id/nav_myMessages"
+            android:title="@string/text_my_messages" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:title="@string/text_settings" />
+    </group>
+
+
+</menu>

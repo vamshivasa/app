@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".VerficationActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView_EnterOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter Your OTP"
+        android:textSize="15sp"
+        android:typeface="serif" />
+    <EditText
+        android:id="@+id/editText_Otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:typeface="serif"
+        android:hint="Enter 6 digits" />
+    <TextView
+        android:id="@+id/button_resendOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Resend OTP"
+        android:textSize="15sp"
+        android:typeface="serif"
+        android:clickable="true"
+        android:gravity="right"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Done"
+        android:onClick="done"
+        android:textColor="@color/text_color_main"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:typeface="serif" />
+
+
+</LinearLayout>

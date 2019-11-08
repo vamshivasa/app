@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">FindRoommate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">abc@something.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_home">Home</string>
+    <string name="text_add_post">Add post</string>
+    <string name="text_my_post">My Post</string>
+    <string name="text_my_messages">My Messages</string>
+    <string name="profile">Profile</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_search">search</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string-array name="sort">
+        <item>Newest</item>
+        <item>Nearest</item>
+        <item>High Price</item>
+        <item>Low Price</item>
+
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="filters">
+        <item>Furnished</item>
+        <item>No Smoking</item>
+        <item>No Drinking</item>
+        <item>No Pets</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string-array name="pictureLoad">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="rent">Rent</string>
+    <string name="contact_user">Contact User</string>
+    <string name="hide_post">Hide Post</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="done">Done</string>
+    <string name="your_post_has_been_successfully_deleted">Your Post Has Been Successfully Deleted.</string>
+    <string name="create_a_new_post">Create a New Post</string>
+    <string name="or">or</string>
+    <string name="go_to_home">Go To Home</string>
+    <string name="pick_visit_date_time">Pick Visit Date Time</string>
+    <string name="your_post_has_been_successfully">Your Post Has Been Successfully</string>
+    <string name="type_message_here">Type message here...</string>
+</resources>

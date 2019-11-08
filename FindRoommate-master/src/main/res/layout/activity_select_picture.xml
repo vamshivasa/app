@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".PictureUpload">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageButton
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView7"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView8"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView9"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageView10"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu_camera"
+            android:padding="20dp"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            tools:ignore="NestedWeights"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/deleteImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Long tap to delete any image"
+        android:textSize="20sp"
+        android:typeface="serif" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonImagesDone"
+        android:typeface="serif"
+        android:background="@drawable/rounded_button"
+        android:padding="16dp"
+        android:text="Done"/>
+
+</LinearLayout>
